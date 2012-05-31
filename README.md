@@ -1,24 +1,29 @@
-# Railslove::Cli
+# The Railslove CLI
 
-TODO: Write a gem description
+This is a little CLI wrapper for api.railslove.com that also powers railslove.com. Now you can access (all) the Railslove content directly from your shell prompt.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'railslove-cli'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it yourself as:
 
     $ gem install railslove-cli
 
 ## Usage
 
-TODO: Write usage instructions here
+### People
+
+You can get a list of all the folks of the Railslove Family
+
+    $ railslove-people list
+
+Once you found someone you're more interested in you can obtaim more information with:
+
+    $ railslove-people show <slug>
+
+### Projects
+
+Here be dragons.
+
 
 ## Contributing
 
