@@ -22,7 +22,13 @@ Once you found someone you're more interested in you can obtaim more information
 
 ### Projects
 
-Here be dragons.
+You can get a list of all projects where Railslove was somehow involved
+
+    $ railslove-projects list
+
+Once you found someone you're more interested in you can obtaim more information with:
+
+    $ railslove-projects show <slug>
 
 
 ## Contributing

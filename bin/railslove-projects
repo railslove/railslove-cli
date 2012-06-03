@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+begin
+  require "railslove-cli"
+rescue LoadError
+  railslove_cli_path = File.expand_path('../../lib', __FILE__)
+  $:.unshift(railslove_cli_path)
+  require "railslove-cli"
+end
+
+Railslove::Cli::Project.start(ARGV)
