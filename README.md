@@ -1,6 +1,6 @@
 # The Railslove CLI
 
-This is a little CLI wrapper for api.railslove.com that also powers railslove.com. Now you can access (all) the Railslove content directly from your shell prompt.
+This is a little CLI wrapper for [api.railslove.com](http://api.railslove.com) that also powers [railslove.com](http://railslove.com). Now you can access (all) the Railslove content directly from your shell prompt.
 
 ## Installation
 
